@@ -57,11 +57,11 @@ The Motion Estimation Processor source code is organized as follows:
 
 ![Timing Chart](docs/PythonResult.png)
 
-## Motion Estimation Block diagram
+## Motion Estimation Block Diagram
 
 ![Block Diagram](docs/meblockdiagram.png)
 
-## Motion Estimation RTL Block diagram
+## Motion Estimation RTL Block Diagram
 
 ![Block Diagram](docs/meRTL.png)
 
