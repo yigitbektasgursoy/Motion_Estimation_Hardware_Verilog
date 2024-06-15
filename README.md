@@ -16,6 +16,7 @@ Hardware implementation of [Motion Estimation](https://en.wikipedia.org/wiki/Mot
 8. [Python Result](#python-result)
 9. [Block Diagrams](#block-diagrams)
 10. [Source Files](#source-files)
+11. [To Do](#to-do)
 
 ---
 
@@ -127,3 +128,11 @@ The Motion Estimation Processor source code is organized as follows:
 - **SearchWindowMemory_sw.txt:** Contains decimal data for initializing the search window memory in the software.
 - **ReferenceBlock_sw.txt:** Contains decimal data for initializing the reference block memory in the software.
 - **min_SAD.txt:** Contains the expected minimum SAD value calculated by the software for comparison with the hardware result.
+
+---
+
+## To Do
+
+- **Make scalable (parametric) structure:** Refactor the design to be scalable and parameterizable to support various configurations.
+- **Demo on FPGA:** Demonstrate the working of the motion estimation hardware on an FPGA.
+- **Make configurable:** Ensure the hardware is configurable to support different parameters and use cases.
