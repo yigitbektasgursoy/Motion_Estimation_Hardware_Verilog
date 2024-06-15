@@ -68,14 +68,9 @@ Motion Estimation is a process of finding motion vectors from a reference frame 
 
 The Motion Estimation Processor source code is organized as follows:
 
-```text
-/docs       project report
-/constraint constraint file
-/rtl        RTL files for Motion Estimation Processor
-/testbench  testbench source and testcase files
-```
 
 ---
+
 
 ## Behavioral Simulation Result
 
@@ -129,3 +124,4 @@ The Motion Estimation Processor source code is organized as follows:
 - **ReferenceBlock_sw.txt:** Contains decimal data for initializing the reference block memory in the software.
 - **min_SAD.txt:** Contains the expected minimum SAD value calculated by the software for comparison with the hardware result.
 ```
+
