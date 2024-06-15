@@ -31,14 +31,14 @@ Motion Estimation is a process of finding motion vectors from a reference frame 
 3. Add the `/testbench/testcase/SearchWindowMemory_hw.txt`, `/testbench/testcase/ReferenceBlock_hw.txt`, and `/testbench/testcase/min_SAD.txt` files as simulation files in your VIVADO project.
 4. Finally, run the `/testbench/ME_tb.v` file.
 
-## How to Synthesize Motion Estimation Processor
+## How to Implement Motion Estimation Hardware
 
 1. Go to the `/constraint` directory.
 2. Add the constraint file to the relevant VIVADO project as a constraint file.
 3. Add the source files from the `/rtl` directory and set `MotionEstimationTop.v` as the top module.
-4. Run the implementation from the appropriate section.
+4. Run the implementation.
 
-## Source Code Organization
+## Directory Structure
 
 The Motion Estimation Processor source code is organized as follows:
 
