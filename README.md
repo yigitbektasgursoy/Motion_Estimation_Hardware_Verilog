@@ -1,4 +1,3 @@
-```markdown
 # Motion Estimation Hardware
 
 Hardware implementation of [Motion Estimation](https://en.wikipedia.org/wiki/Motion_estimation) algorithm written in Verilog-HDL.
@@ -81,4 +80,3 @@ The Motion Estimation Processor source code is organized as follows:
 - **SearchWindowMemory_sw.txt**: Contains decimal data for initializing the search window memory in the software.
 - **ReferenceBlock_sw.txt**: Contains decimal data for initializing the reference block memory in the software.
 - **min_SAD.txt**: Contains the expected minimum SAD value calculated by the software for comparison with the hardware result.
-```
