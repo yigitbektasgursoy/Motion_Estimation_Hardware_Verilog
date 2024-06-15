@@ -9,7 +9,7 @@ Motion Estimation is a process of finding motion vectors from a reference frame 
 - Use the sum of absolute difference (SAD) between corresponding pixels.
 - The displacement between the current macro block and the best matching macro block is the motion vector.
 
-![Motion Estimation Block Diagram](blockmatchingestimation.png)
+![Motion Estimation Block Diagram](docs/blockmatchingestimation.png)
 
 ## Description
 
