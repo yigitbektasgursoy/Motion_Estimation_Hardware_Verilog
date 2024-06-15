@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-```
->>>>>>> 520a5f394f5fc76f7d3674d267ccc3d5beacb416
 # Motion Estimation Hardware
 
 Hardware implementation of [Motion Estimation](https://en.wikipedia.org/wiki/Motion_estimation) algorithm written in Verilog-HDL.
