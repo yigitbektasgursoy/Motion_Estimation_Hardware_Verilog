@@ -23,7 +23,7 @@ module ControlUnit
 	
 	//SEARCH WINDOW INTERFACE BEGIN
 	output reg [$clog2(SW_MEMORY_DEPTH)-1:0] out_sw_read_addr1, // Search window read address 1
-	output reg [$clog2(SW_MEMORY_DEPTH)-1:0] out_sw_read_addr2, // Search window read address 2
+	output reg [$clog2(SW_MEMORY_DEPTH)-1:0] out_sw_read_addr2  // Search window read address 2
 	//SEARCH WINDOW INTERFACE END
 	
 	);

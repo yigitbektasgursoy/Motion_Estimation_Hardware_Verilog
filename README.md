@@ -49,13 +49,25 @@ The Motion Estimation Processor source code is organized as follows:
 /testbench  testbench source and testcase files
 ```
 
-## Timing chart
+## Behavioral Simulation Result
 
-![Timing Chart](docs/comparisonOfHardwareSoftware.png)
+![Timing Chart](docs/BehavioralSimulation.png)
 
-## Block diagram
+## Python Result
+
+![Timing Chart](docs/PythonResult.png)
+
+## Motion Estimation Block diagram
 
 ![Block Diagram](docs/meblockdiagram.png)
+
+## Motion Estimation RTL Block diagram
+
+![Block Diagram](docs/meRTL.png)
+
+## Processing Elements Scheduling
+
+![Block Diagram](docs/pescheduling.png)
 
 ## Source Files
 
