@@ -129,4 +129,3 @@ The Motion Estimation Processor source code is organized as follows:
 - **ReferenceBlock_sw.txt:** Contains decimal data for initializing the reference block memory in the software.
 - **min_SAD.txt:** Contains the expected minimum SAD value calculated by the software for comparison with the hardware result.
 ```
-```
