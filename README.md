@@ -34,7 +34,7 @@ Motion Estimation is a process of finding motion vectors from a reference frame 
 - **Search Memory Window:** 31x31 pixels
 - **Reference Memory Block:** 16x16 pixels
 - **Parallel Processing:** 16 Processing Elements
-- **Clock Frequency:** 32 MHz
+- **Clock Frequency:** 31.25 MHz
 - **Post-Implementation:** Nexys-A7-100T FPGA board
 
 ---
