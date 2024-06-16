@@ -79,13 +79,19 @@ The Motion Estimation Processor source code is organized as follows:
 
 ## Behavioral Simulation Result
 
-![Timing Chart](docs/BehavioralSimulation.png)
+![Timing Chart](docs/behavresult.png)
+
+---
+
+## Post-Imp Functional Simulation Result
+
+![Timing Chart](docs/postimpsimresult.png)
 
 ---
 
 ## Python Result
 
-![Timing Chart](docs/PythonResult.png)
+![Timing Chart](docs/pyresult.png)
 
 ---
 

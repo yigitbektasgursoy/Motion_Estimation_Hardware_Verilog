@@ -114,7 +114,7 @@ module ControlUnit
 	// SEARCH WINDOW ADDRESS 1 CONTROL END
 	
 	// SEARCH WINDOW READ ADDRESS 2 CONTROL BEGIN
-	always @(posedge in_clk)begin
+	always @(posedge in_clk or posedge in_rst)begin
 		if(in_rst)begin
 			out_sw_read_addr2 <= 0;
 		end
