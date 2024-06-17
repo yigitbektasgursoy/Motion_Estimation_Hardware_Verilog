@@ -1,30 +1,30 @@
 import numpy as np
 
-# Dosyaları oku ve listeler oluştur
+# Read the files and create lists
 with open('ReferenceBlock_sw.txt', 'r') as file:
     reference_block_flat = [int(line.strip()) for line in file]
 
 with open('SearchWindowMemory_sw.txt', 'r') as file:
     search_window_flat = [int(line.strip()) for line in file]
 
-# Numpy dizileri oluştur
+# Create numpy arrays
 reference_block = np.array(reference_block_flat).reshape(16, 16)
 search_window = np.array(search_window_flat).reshape(31, 31)
 
-# SAD değerlerini tutacak dizi
+# Array to hold SAD values
 sad_values = np.zeros((16, 16))
 
-# Kaydırma işlemi ve SAD hesaplama
-for i in range(16):  # Dikey kaydırma
-    for j in range(16):  # Yatay kaydırma
+# Shift operation and SAD calculation
+for i in range(16):  # Vertical shift
+    for j in range(16):  # Horizontal shift
         sad_values[i, j] = np.sum(np.abs(reference_block - search_window[i:i+16, j:j+16]))
 
-# Minimum SAD değeri ve indeksi
+# Minimum SAD value and its index
 min_sad = np.min(sad_values)
 min_indices = np.unravel_index(np.argmin(sad_values), sad_values.shape)
 
 print(f"Minimum SAD: {min_sad} at position: {min_indices}")
 
-# Minimum SAD değerini hexadecimal olarak yazdır
+# Write the minimum SAD value in hexadecimal format
 with open('min_SAD.txt', 'w') as file:
     file.write(f"{int(min_sad):X}\n")
