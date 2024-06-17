@@ -98,10 +98,10 @@ module ControlUnit
 					out_sw_read_addr1 <= new_frame_control;
 				end
 				else if (cu_counter % 16 == 15) begin
-					out_sw_read_addr1 <= new_frame_control + rb_row_index; // Yeni satırın başlangıç adresi
+					out_sw_read_addr1 <= new_frame_control + rb_row_index; // Starting address of the new row
 				end 
 				else begin
-					out_sw_read_addr1 <= out_sw_read_addr1 + 31; // Aynı satırda 31 artır
+					out_sw_read_addr1 <= out_sw_read_addr1 + 31; // 31 increments on the same row
 				end
 				
 				// Trigger port 2 after 13 clock cycles to enable reading from the second search window
